@@ -143,7 +143,61 @@
             }
 
         //class.....................................................
-            car ford ne
+            internal class person
+{
+    //properties
+    public string name { get; set; }
+
+    /*
+     public string Name
+    {
+        get { return name; }
+        set { name = value; }
+    }
+    */
+
+    public int age;
+    public double height;
+    public double weight;
+
+    //methods
+
+    public void eating()
+    {
+        Console.WriteLine("i am eating");
+        
+
+    }
+
+    public void sleeping()
+
+-----------------------------------------------------------------------------------------------------
+
+    private static void Main(string[] args)
+    {
+        //creatin objevts
+        person person1 = new person();
+        person person2 = new person();
+
+
+        //asssing proppertis for classes
+
+        person1.name = "kamal";
+        person1.age = 23;
+
+
+        person2.name = "nimal";
+        person2.age = 25;
+
+
+        //Assesing to methods
+        person1.eating();
+           
+
+        Console.WriteLine("name is" + person1.name);
+        Console.WriteLine("age is" + person1.age);
+    }
+}
 
         }
     }
